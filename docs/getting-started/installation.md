@@ -31,7 +31,7 @@ https://core.runopt.co
 ### 2. NYC Zoning App
 For NYC-specific zoning analysis:
 ```
-https://zoning.runopt.co
+https://core.runopt.co/zoning-map
 ```
 
 ### 3. Landing Page

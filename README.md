@@ -1,113 +1,114 @@
 # Runopt Documentation
 
-This is the official documentation for Runopt, a comprehensive Real Estate Feasibility Analysis and Civil Engineering Design Platform.
+Official documentation site for Runopt - AI-powered software for land development.
 
-## What is Runopt?
+## 🚀 Features
 
-Runopt combines zoning analysis, civil engineering tools, and AI-powered insights to help developers and engineers make informed decisions about real estate development projects.
+- **Custom Homepage**: Beautiful dark theme with Runopt brand gradients
+- **Responsive Design**: Optimized for desktop and mobile devices
+- **Tailwind CSS**: Modern utility-first styling
+- **Interactive Navigation**: Functional buttons and links
+- **SEO Optimized**: Meta tags and social card images
 
-## Documentation Sections
+## 🎨 Design
 
-### Getting Started
-- **Installation & Setup** - How to access and set up your Runopt account
-- **Quick Start Guide** - Get up and running in minutes
-- **Authentication** - Account management and security
+- **Brand Colors**: Purple (`#B945CC`) to Blue (`#355BE0`) gradients
+- **Dark Theme**: Consistent dark backgrounds throughout
+- **Typography**: Clean, readable fonts with proper hierarchy
+- **Animations**: Smooth hover effects and transitions
 
-### Zoning Analysis
-- **Overview** - Understanding zoning analysis tools
-- **Property Search** - Finding and analyzing properties
-- **Zoning Maps** - Interactive mapping features
-- **Chatbot Integration** - AI-powered zoning insights
+## 📁 Project Structure
 
-### Civil Engineering
-- **Overview** - Civil engineering tools and features
-- **Terrain Visualization** - 3D terrain modeling
-- **Storm Water** - Storm water management analysis
-- **Utilities** - Utility planning and design
-- **Roadways** - Roadway design and analysis
-- **Parking** - Parking analysis and layout
-- **Buildings** - Building design tools
-- **Geotech** - Geotechnical analysis
+```
+Runopt-docs/
+├── docs/                    # Documentation content
+│   ├── intro.md            # Getting started
+│   ├── getting-started/    # Installation & setup guides
+│   ├── zoning-analysis/    # Zoning tools documentation
+│   ├── civil-engineering/  # Civil engineering features
+│   └── api-reference/      # API documentation
+├── src/
+│   ├── pages/              # Custom pages
+│   │   └── index.tsx       # Homepage component
+│   ├── css/                # Global styles
+│   │   └── custom.css      # Custom CSS with Tailwind
+│   └── pages/              # Page-specific styles
+│       └── index.module.css # Homepage styling
+├── static/                 # Static assets
+│   └── img/               # Images and logos
+├── pdfs/                  # PDF documentation files
+└── docusaurus.config.ts   # Docusaurus configuration
+```
 
-### Data & Export
-- **Overview** - Data export and reporting features
-- **CSV Analysis** - Site analysis with CSV data
-- **Reports** - Comprehensive project reports
-- **API Integration** - Programmatic access
-
-### API Reference
-- **Authentication** - API authentication methods
-- **Endpoints** - Available API endpoints
-- **Rate Limits** - API usage limits
-- **Error Codes** - Common error responses
-
-### Troubleshooting
-- **Common Issues** - Frequently encountered problems
-- **Performance** - Optimization and performance tips
-- **Support** - Getting help and support
-
-## Quick Links
-
-- **Core Platform**: [https://core.runopt.co](https://core.runopt.co)
-- **NYC Zoning App**: [https://zoning.runopt.co](https://zoning.runopt.co)
-- **Landing Page**: [https://runopt.co](https://runopt.co)
-- **Support**: support@runopt.co
-- **GitHub**: [https://github.com/Runopt](https://github.com/Runopt)
-
-## Development
-
-This documentation is built with [Docusaurus](https://docusaurus.io/), a modern static website generator.
+## 🛠️ Development
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above
-- [npm](https://www.npmjs.com/) (comes with Node.js)
+- Node.js (v16 or higher)
+- npm or yarn
 
 ### Installation
 
 ```bash
+# Install dependencies
 npm install
-```
 
-### Local Development
-
-```bash
+# Start development server
 npm start
-```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```bash
+# Build for production
 npm run build
+
+# Serve production build
+npm run serve
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+### Customization
 
-### Deployment
+- **Styling**: Modify `src/css/custom.css` for global styles
+- **Homepage**: Edit `src/pages/index.tsx` and `src/pages/index.module.css`
+- **Configuration**: Update `docusaurus.config.ts` for site settings
+- **Content**: Add documentation in the `docs/` directory
 
-```bash
-npm run deploy
-```
+## 🚀 Deployment
 
-This command builds the documentation and deploys it to GitHub Pages.
+### GitHub Pages
 
-## Contributing
+1. Create a new repository on GitHub
+2. Push this code to the repository
+3. Enable GitHub Pages in repository settings
+4. Set source to "GitHub Actions" for automatic deployment
 
-We welcome contributions to improve our documentation! Please:
+### Build Configuration
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+The site is configured for GitHub Pages deployment with:
+- Base URL: `/`
+- Organization: Runopt
+- Project name: Runopt-docs
 
-## Support
+## 📚 Documentation Sections
 
-- **Email**: support@runopt.co
-- **Documentation Issues**: [GitHub Issues](https://github.com/Runopt/Runopt-docs/issues)
-- **Feature Requests**: [GitHub Discussions](https://github.com/Runopt/Runopt-docs/discussions)
+- **Getting Started**: Installation, authentication, quick start
+- **Zoning Analysis**: Property search, zoning tools overview
+- **Civil Engineering**: Design optimization, grading, drainage
+- **API Reference**: Developer documentation
+- **Troubleshooting**: Common issues and solutions
 
-## License
+## 🎯 Key Features Implemented
 
-This documentation is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- ✅ Custom homepage with Runopt branding
+- ✅ Purple-to-blue gradient styling
+- ✅ Functional navigation buttons
+- ✅ Dark theme throughout
+- ✅ Responsive design
+- ✅ SEO optimization
+- ✅ Tailwind CSS integration
+- ✅ GitHub Pages ready
+
+## 📄 License
+
+This project is part of the Runopt platform documentation.
+
+---
+
+Built with [Docusaurus](https://docusaurus.io/) - A modern static website generator.
