@@ -1,0 +1,251 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #355BE0;
+  --ifm-color-primary-dark: #2a4bc7;
+  --ifm-color-primary-darker: #2545bc;
+  --ifm-color-primary-darkest: #1e3899;
+  --ifm-color-primary-light: #4a6ee8;
+  --ifm-color-primary-lighter: #5a7aeb;
+  --ifm-color-primary-lightest: #7a94f0;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* Runopt Brand Colors */
+  --runopt-purple: #B945CC;
+  --runopt-blue: #355BE0;
+  --runopt-gradient: linear-gradient(135deg, #B945CC 0%, #355BE0 100%);
+  
+  /* Runopt Dark Colors */
+  --runopt-dark: #1a1a1a;
+  --runopt-darker: #0f0f0f;
+  --runopt-dark-gradient: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #4a6ee8;
+  --ifm-color-primary-dark: #355BE0;
+  --ifm-color-primary-darker: #2a4bc7;
+  --ifm-color-primary-darkest: #1e3899;
+  --ifm-color-primary-light: #5a7aeb;
+  --ifm-color-primary-lighter: #7a94f0;
+  --ifm-color-primary-lightest: #9aaff5;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom Runopt styles */
+.navbar__logo {
+  filter: none !important;
+}
+
+.navbar__logo img {
+  filter: none !important;
+}
+
+/* Hero Title with Runopt Gradient */
+.hero__title {
+  background: linear-gradient(135deg, #B945CC 0%, #355BE0 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  font-weight: 700 !important;
+  color: transparent !important;
+}
+
+/* More specific selectors to override Docusaurus */
+.hero.hero--primary .hero__title {
+  background: linear-gradient(135deg, #B945CC 0%, #355BE0 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  font-weight: 700 !important;
+  color: transparent !important;
+}
+
+/* Most specific selector to override everything */
+.hero.hero--primary .container .hero__title {
+  background: linear-gradient(135deg, #B945CC 0%, #355BE0 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  font-weight: 700 !important;
+  color: transparent !important;
+}
+
+/* Force override for any remaining white text */
+.hero__title,
+.hero.hero--primary .hero__title,
+.hero.hero--primary .container .hero__title {
+  background: linear-gradient(135deg, #B945CC 0%, #355BE0 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  font-weight: 700 !important;
+  color: transparent !important;
+}
+
+/* Runopt Brand Gradient Background */
+.hero--primary {
+  background: var(--runopt-gradient) !important;
+}
+
+/* Navbar with Runopt branding */
+.navbar {
+  background: rgba(26, 26, 26, 0.95) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(185, 69, 204, 0.2);
+}
+
+.navbar__title {
+  background: var(--runopt-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+/* Footer with Runopt dark branding */
+.footer {
+  background: var(--runopt-dark-gradient) !important;
+  border-top: 1px solid rgba(185, 69, 204, 0.3) !important;
+  color: white !important;
+}
+
+.footer__title {
+  color: white !important;
+  font-weight: 600;
+}
+
+.footer__link-item {
+  color: rgba(255, 255, 255, 0.8) !important;
+  transition: all 0.3s ease;
+}
+
+.footer__link-item:hover {
+  color: white !important;
+  text-decoration: none;
+  transform: translateX(5px);
+}
+
+.footer__copyright {
+  color: rgba(255, 255, 255, 0.6) !important;
+  border-top: 1px solid rgba(185, 69, 204, 0.3) !important;
+  padding-top: 1rem;
+  margin-top: 2rem;
+}
+
+/* Buttons with Runopt gradient */
+.button--primary {
+  background: var(--runopt-gradient) !important;
+  border: none !important;
+  transition: all 0.3s ease !important;
+}
+
+.button--primary:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 10px 25px rgba(53, 91, 224, 0.3) !important;
+}
+
+/* Links with Runopt colors */
+a {
+  color: var(--runopt-blue);
+}
+
+a:hover {
+  color: var(--runopt-purple);
+}
+
+/* Sidebar with Runopt accent */
+.theme-doc-sidebar-container {
+  border-right: 1px solid rgba(53, 91, 224, 0.1);
+}
+
+.theme-doc-sidebar-item-category-level-1 > .theme-doc-sidebar-item-category > .theme-doc-sidebar-item-link {
+  color: var(--runopt-blue);
+  font-weight: 600;
+}
+
+.theme-doc-sidebar-item-category-level-1 > .theme-doc-sidebar-item-category > .theme-doc-sidebar-item-link:hover {
+  color: var(--runopt-purple);
+}
+
+/* Active sidebar items */
+.theme-doc-sidebar-item-category-level-1 > .theme-doc-sidebar-item-category > .theme-doc-sidebar-item-category__button--active {
+  background: var(--runopt-gradient);
+  color: white;
+}
+
+/* Breadcrumbs with Runopt colors */
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: var(--runopt-blue);
+}
+
+/* Pagination with Runopt colors */
+.pagination-nav__link {
+  border: 1px solid rgba(53, 91, 224, 0.2);
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--runopt-blue);
+  background: rgba(53, 91, 224, 0.05);
+}
+
+/* Code blocks with Runopt accent */
+.theme-code-block {
+  border: 1px solid rgba(53, 91, 224, 0.1);
+}
+
+/* Admonitions with Runopt colors */
+.admonition {
+  border-left: 4px solid var(--runopt-blue);
+}
+
+.admonition--tip {
+  border-left-color: var(--runopt-purple);
+}
+
+.admonition--info {
+  border-left-color: var(--runopt-blue);
+}
+
+/* Table of contents */
+.table-of-contents__link--active {
+  color: var(--runopt-blue);
+  font-weight: 600;
+}
+
+.table-of-contents__link:hover {
+  color: var(--runopt-purple);
+}
+
+/* Dark theme for homepage */
+[data-theme='dark'] .heroBanner {
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 50%, #2a2a2a 100%) !important;
+}
+
+[data-theme='dark'] .features {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+}
+
+[data-theme='dark'] .quickLinks {
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+}
+
+/* Purple divider lines */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, #B945CC 50%, transparent 100%);
+  margin: 2rem 0;
+  opacity: 0.6;
+}

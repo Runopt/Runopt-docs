@@ -1,0 +1,201 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 50%, #2a2a2a 100%) !important;
+  color: white;
+}
+
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="white" opacity="0.05"/><circle cx="75" cy="75" r="1" fill="white" opacity="0.05"/><circle cx="50" cy="10" r="0.5" fill="white" opacity="0.05"/><circle cx="10" cy="60" r="0.5" fill="white" opacity="0.05"/><circle cx="90" cy="40" r="0.5" fill="white" opacity="0.05"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.heroBanner .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero__title {
+  background: linear-gradient(135deg, #B945CC 0%, #355BE0 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  font-weight: 700 !important;
+  color: transparent !important;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
+}
+
+.hero__description {
+  font-size: 1.2rem;
+  margin: 1rem 0 2rem 0;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  position: relative;
+}
+
+.features::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, #B945CC 50%, transparent 100%);
+}
+
+.features::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, #B945CC 50%, transparent 100%);
+}
+
+.features h2 {
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #B945CC 0%, #355BE0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.features h3 {
+  margin-bottom: 1rem;
+  color: white;
+  font-weight: 600;
+}
+
+.features p {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.6;
+}
+
+.quickLinks {
+  padding: 3rem 0;
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+  position: relative;
+}
+
+.quickLinks::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, #B945CC 50%, transparent 100%);
+}
+
+.quickLinks h3 {
+  margin-bottom: 1rem;
+  color: white;
+  font-weight: 600;
+}
+
+.quickLinks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quickLinks li {
+  margin-bottom: 0.75rem;
+}
+
+.quickLinks a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 0.5rem 0;
+  display: inline-block;
+}
+
+.quickLinks a:hover {
+  color: white;
+  transform: translateX(5px);
+  text-decoration: none;
+}
+
+/* Button styling */
+.button--secondary {
+  background: linear-gradient(255deg, #355be0 0%, #b945cc 100%) !important;
+  color: white !important;
+  border: none !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0px 0px 50px 5px rgba(27, 27, 27, 0.1) !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  pointer-events: auto !important;
+  position: relative !important;
+  z-index: 10 !important;
+}
+
+.button--secondary:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0px 0px 50px 5px rgba(27, 27, 27, 0.2) !important;
+  background: linear-gradient(255deg, #4a6ee8 0%, #a855f7 100%) !important;
+}
+
+.button--outline {
+  background: transparent !important;
+  color: white !important;
+  border: 2px solid rgba(255, 255, 255, 0.3) !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  pointer-events: auto !important;
+  position: relative !important;
+  z-index: 10 !important;
+}
+
+.button--outline:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-color: white !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2) !important;
+}
