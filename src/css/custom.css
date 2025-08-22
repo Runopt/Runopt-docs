@@ -4,10 +4,7 @@
  * work well for content-centric websites.
  */
 
-/* Tailwind CSS */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Custom styles for Runopt documentation */
 
 /* You can override the default Infima variables here. */
 :root {
