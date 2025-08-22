@@ -38,61 +38,118 @@ The Real Estate Feasibility Analysis module combines zoning data, market insight
 
 ## Getting Started
 
-### 1. Property Selection
+### 1. Create a Project
 1. Navigate to the [Homepage](https://core.runopt.co/home)
 
 2. Click on the Start Real Estate Feasibility Analysis Button
 
-![Property Search Interface](/img/screenshots/core-product-realestate-feasibility-button.png)
+![Homepage Real Estate Feasibility Analysis](/img/screenshots/core-product-realestate-feasibility-button.png)
 
 3. Enter the project details
     - Enter project Name
     - Choose a zoning type from the dropdown menu
     - Click on the 'Add Project' Button.  
 
-    ![Property Search Interface](/img/screenshots/core-product-project-details.png)
+    ![Homepage Project Details](/img/screenshots/core-product-project-details.png)
 
 4. A new project will be created and displayed under the 'All Projects' section of the Homepage. Click on the project card newly created(usually the first/last card displayed).
 
-![Property Search Interface](/img/screenshots/core-product-all-projects.png)
+![Homepage All projects](/img/screenshots/core-product-all-projects.png)
 
-4. Review basic property information
+### 2. Stage One: Building and Parking Lots placement
+1. Once the project created is selected from the last step above,
+    -  Import Site Data by clicking on the 'Import Existing Site' button under Data tab on the sidebar.
 
-### 2. Analysis Configuration
-1. Define your project parameters:
-   - **Project Type**: Residential, commercial, mixed-use, etc.
-   - **Development Scope**: New construction, renovation, adaptive reuse
-   - **Timeline**: Expected development timeline
-   - **Budget**: Available investment capital
+    ![Core product import data](/img/screenshots/core-product-import-data.png)
 
-### 3. Generate Analysis
-1. Click "Generate Feasibility Analysis"
-2. Review the comprehensive report
-3. Explore different scenarios and options
-4. Export results for further analysis
+    -  Upload the Excel or CSV file.
 
-## Analysis Components
+    ![Core product Upload file](/img/screenshots/core-product-upload-csv-file.png)
 
-### Zoning Analysis
-- **District Classification**: Current zoning district and regulations
-- **Use Permissions**: Permitted and prohibited uses
-- **Development Standards**: Height, FAR, setback, and coverage limits
-- **Special Districts**: Overlay zones and special regulations
+    -  A terrain layer will be generated.
 
-### Financial Analysis
-- **Land Cost**: Current market value and acquisition costs
-- **Development Costs**: Construction, permits, and soft costs
-- **Operating Expenses**: Ongoing costs and maintenance
-- **Revenue Projections**: Rental income, sales proceeds, or other revenue
+    ![Core product Upload file](/img/screenshots/core-product-terrain-layer.png)
 
-### Market Analysis
-- **Comparable Properties**: Recent sales and listings
-- **Market Conditions**: Supply, demand, and pricing trends
-- **Demographics**: Population, income, and employment data
-- **Economic Factors**: Local economic indicators and forecasts
+    - Add building by clicking on the Buildings button on the sidebar. This will open the Buildings Panel.
+
+    ![Core product Upload file](/img/screenshots/core-product-buildings-panel.png)
+
+    - Click on the '+Add Building' button to draw the building footprint on the canvas. Enter the building name on the top of the canvas. Save Building at the bottom of the canvas.
+
+    ![Core product Upload file](/img/screenshots/core-product-draw-building.png)
+
+
+    - Once done, click the 'Submit the Building' button.
+
+    - Next, click on the 'Parking' Button on the sidebar to open the Parking Specifications panel. Enter the number of parking lots. Save Specifications.
+
+    ![Core product Upload file](/img/screenshots/core-product-add-parking.png)
+
+    - Finally, under the Run tab on the sidebar, click on the 'Run Stage 1 - building placement' button for the first optimization. This will take a 1-2 mins. In the meantime, enjoy reading the fun buiding up process.
+
+    ![Core product Upload file](/img/screenshots/core-product-optimization-process.png)
+
+    - The complete site optimization for the building placement with total project cost that includes Earthworks and Retaining wall costs.
+
+   ![Core product Upload file](/img/screenshots/core-product-complete-site-optimization.png)
+
+### 3. Stage Two: Drainage placement
+#### The Geotechnical data part & the roadway module is still under development
+
+#### Utilities 
+For the utilities configuration section, you can enter the information based on the data we've provided in the illustration below.
+
+-  Click on the 'Utilities button' on the sidebar. This will open up the Utilities Configuration Panel.
+
+![Core product Upload file](/img/screenshots/core-product-utilities-configuration.png)
+
+-  Under the Water Supply Node, Click on the 'select water supply node' text. This will enable you to select a node (x and y coordinate) on the interactive terrrain. Click on the terrain to select the node.The node x and y coordinate will then appear in the utilities configuration panel.
+
+- Under the Wastewater Use Node click on the 'Select wasterwatr Node' text. This will enable you to select a node on the interactive terrain. Click on the terrain to select the node. The node x and y coordinate will then appear in the utilities configuration panel.
+
+- Select the pipe material from the dropdown menu. 
+
+- Enter the Frost Line Depth, if any.
+
+- Enter the initial Flow Rate.
+
+- Click on save configuration.
+
+- Finally, under the Run tab on the sidebar, click on the 'Run Stage 2: Pipe Design' button for the first optimization. This will take a 1-2 mins to run the process and produce the pipe network optimization and cost. In the meantime, enjoy reading the fun buiding up process.
+
+![Core product Upload file](/img/screenshots/core-product-pipe-design-complete.png)
+
+
+### 4. Stage Three: Stormwater
+
+Now we can add the stormwater input specifications for the analysis.
+
+- In the sidebar, under the Data tab, click on the 'Precip Data' button.  This will open the Stormwater Input Specifications' form.
+
+
+![Core product Upload file](/img/screenshots/core-product-storm-water-specifications.png)
+
+- Fill in the Storm Design Frequency.
+
+- Fill in the Frost Line Depth.
+
+- Enter the Minimum Pipe Slope.
+
+- Click on the 'Save Specifications' button. 
+
+- Finally, under the Run tab on the sidebar, click on the 'Run Stage 3: Storm Water Analysis' button for the first optimization. This will take a 1-2 mins to run the process and produce the pipe network optimization and cost. In the meantime, enjoy reading the fun buiding up process.
+
+![Core product Upload file](/img/screenshots/core-product-storm-water-complete.png)
+
+- Different analysis results can be seen under the stormwater tab on the canvas by clicking and selecting the available stormwater methods.
+
+![Core product Upload file](/img/screenshots/core-product-storm-water-diff-analysis.png)
+
 
 ## Output and Reporting
+To be implemented soon.
 
+{/*
 ### Comprehensive Reports
 - **Executive Summary**: Key findings and recommendations
 - **Detailed Analysis**: In-depth review of all factors
@@ -138,6 +195,7 @@ The Real Estate Feasibility Analysis module combines zoning data, market insight
 - **Comment System**: Add notes and observations
 - **Version Control**: Track changes and updates
 - **Approval Workflows**: Manage review and approval processes
+*/}
 
 ## Troubleshooting
 
