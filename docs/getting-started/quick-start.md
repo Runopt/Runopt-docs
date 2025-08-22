@@ -141,6 +141,6 @@ Once your property is loaded:
 Now that you've completed your first analysis:
 
 - **[Zoning Analysis](../zoning-analysis/overview.md)** - Deep dive into zoning features
-- **[Civil Engineering](../civil-engineering/overview.md)** - Advanced engineering tools
+- **[Core Product](../core-product/real-estate-feasibility-analysis.md)** - Real estate feasibility analysis
 - **[Data Export](../data-export/overview.md)** - Comprehensive reporting options
 - **[API Reference](../api-reference/authentication.md)** - Integrate with your own systems

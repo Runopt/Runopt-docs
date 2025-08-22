@@ -113,7 +113,7 @@ If you experience issues, try clearing your browser cache:
 ### Getting Help
 If you continue to experience issues:
 - Contact support at support@runopt.co
-- Check our [troubleshooting guide](../troubleshooting/common-issues.md)
+- Check our documentation for help
 - Visit our [GitHub repository](https://github.com/Runopt) for known issues
 
 ## Next Steps

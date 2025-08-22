@@ -123,8 +123,7 @@ export default function Home(): ReactNode {
                 <ul>
                   <li><Link to="/docs/getting-started/installation">Installation & Setup</Link></li>
                   <li><Link to="/docs/zoning-analysis/overview">Zoning Analysis</Link></li>
-                  <li><Link to="/docs/civil-engineering/overview">Civil Engineering</Link></li>
-                  <li><Link to="/docs/api-reference/authentication">API Reference</Link></li>
+                  <li><Link to="/docs/core-product/real-estate-feasibility-analysis">Core Product</Link></li>
                 </ul>
               </div>
               <div className="col col--6">

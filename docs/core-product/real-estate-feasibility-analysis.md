@@ -229,4 +229,4 @@ To be implemented soon.
 
 - **[Civil Site Design](./civil-site-design.md)** - Learn about civil engineering analysis
 - **[Zoning Analysis](../zoning-analysis/overview.md)** - Master zoning analysis tools
-- **[API Reference](../api-reference/authentication.md)** - Integrate with your systems
+- **[Zoning Analysis](../zoning-analysis/overview.md)** - Master zoning analysis tools

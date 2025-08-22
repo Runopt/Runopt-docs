@@ -92,5 +92,4 @@ Choose a section below to get started with specific features:
 
 - **[Getting Started](./getting-started/installation)** - Installation and setup
 - **[Zoning Analysis](./zoning-analysis/overview)** - AI-powered zoning tools
-- **[Civil Engineering](./civil-engineering/overview)** - Grading and drainage design
-- **[Data & Export](./data-export/overview)** - Customizable reports and insights
+- **[Core Product](./core-product/real-estate-feasibility-analysis)** - Real estate feasibility analysis

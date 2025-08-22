@@ -25,7 +25,7 @@ const config: Config = {
   organizationName: 'Runopt', // Usually your GitHub org/user name.
   projectName: 'Runopt-docs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -85,7 +85,7 @@ const config: Config = {
           position: 'left',
           label: 'Documentation',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://runopt.co',
           label: 'Website',
@@ -115,15 +115,11 @@ const config: Config = {
             },
             {
               label: 'Zoning Analysis',
-              to: '/docs/category/zoning-analysis',
+              to: '/docs/zoning-analysis/overview',
             },
             {
-              label: 'Civil Engineering',
-              to: '/docs/category/civil-engineering',
-            },
-            {
-              label: 'API Reference',
-              to: '/docs/category/api-reference',
+              label: 'Core Product',
+              to: '/docs/core-product/real-estate-feasibility-analysis',
             },
           ],
         },

@@ -194,7 +194,7 @@ For programmatic access to Runopt:
 
 ### Self-Service
 - Check this documentation
-- Visit our [troubleshooting guide](../troubleshooting/common-issues.md)
+- Visit our documentation for help
 - Review [GitHub issues](https://github.com/Runopt/issues)
 
 ### Account Recovery
@@ -208,4 +208,4 @@ If you can't access your account:
 
 - **[Zoning Analysis](../zoning-analysis/overview.md)** - Start analyzing properties
 - **[API Reference](../api-reference/authentication.md)** - Learn about API integration
-- **[Troubleshooting](../troubleshooting/common-issues.md)** - Common issues and solutions
+- **[Core Product](../core-product/real-estate-feasibility-analysis)** - Real estate feasibility analysis

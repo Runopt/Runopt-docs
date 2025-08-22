@@ -186,4 +186,4 @@ Search using tax map information:
 
 
 ## Next Steps
-- **[Civil Engineering](../civil-engineering/overview.md)** - Analyze engineering requirements
+- **[Core Product](../core-product/real-estate-feasibility-analysis.md)** - Real estate feasibility analysis
