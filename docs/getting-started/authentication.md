@@ -13,14 +13,12 @@ Learn how to manage your Runopt account, understand authentication methods, and 
 2. Click "Sign Up" in the top navigation
 3. Fill in the registration form:
    - **Email Address**: Your primary email for account access
-   - **Password**: Minimum 8 characters, including uppercase, lowercase, and numbers
-   - **Company Name**: Optional, for project organization
-   - **Role/Title**: Optional, for personalized experience
-4. Click "Create Account"
-5. Check your email for verification link
-6. Click the verification link to activate your account
+   - **OTP**: An OTP will be sent to the primary email address above. Check mail and enter the OTP in the form.
+   - **Password**: Create a password. Follow the password requirements below.
+   
+4. Account will be created(*)
 
-### Password Requirements
+### Password Requirements (*)
 - Minimum 8 characters
 - At least one uppercase letter
 - At least one lowercase letter
@@ -57,6 +55,7 @@ Access your profile settings from the user menu (top right):
    - Change password
    - Add profile picture
 
+{/* 
 2. **Company Information**
    - Company name
    - Industry/sector
@@ -67,6 +66,7 @@ Access your profile settings from the user menu (top right):
    - Time zone
    - Language
    - Notification settings
+*/}
 
 ### Subscription Management
 - View current subscription plan
@@ -77,21 +77,23 @@ Access your profile settings from the user menu (top right):
 ## Security Features
 
 ### Session Management
-- **Automatic Logout**: Sessions expire after 24 hours of inactivity
-- **Multiple Sessions**: You can be logged in on multiple devices
+- **Automatic Logout**: Sessions expire after 24 hours of inactivity (*)
+- **Multiple Sessions**: You can be logged in on multiple devices (*)
 - **Session History**: View active sessions in your profile
 
+{/* TO-DO
 ### Two-Factor Authentication (Coming Soon)
 - SMS-based verification
 - Authenticator app support
 - Backup codes for account recovery
+*/}
 
-### Account Security
+### Account Security (*)
 - **Login Notifications**: Email alerts for new logins
 - **Password History**: Prevents reuse of recent passwords
 - **Account Lockout**: Temporary lockout after failed attempts
 
-## API Authentication
+## API Authentication (*)
 
 ### API Keys
 For programmatic access to Runopt:

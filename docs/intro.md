@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Welcome to Runopt Documentation
+# Welcome to Runopt User Documentation
 
 **Runopt** is AI-powered software for land development that transforms land development with an integrated design optimization tool, delivering cost-effective, sustainable designs in minutes.
 
