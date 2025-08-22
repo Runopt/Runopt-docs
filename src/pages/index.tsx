@@ -59,45 +59,45 @@ function HomepageFeatures() {
         </div>
         <div className="row">
           <div className="col col--6">
-            <div className="text--center padding-horiz--md">
+            <div className="text--left padding-horiz--md">
               <h3>🗺️ Zoning Tools for Site Analysis</h3>
-              <p>
+              {/* <p>
                 Let Runopt handle the zoning complexities while you focus on innovative design. 
                 Use natural language to ask AI for interpretations of local zoning regulations, 
                 get instant compliance checks, and explore interactive zoning maps.
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="col col--6">
-            <div className="text--center padding-horiz--md">
+            <div className="text--left padding-horiz--md">
               <h3>📊 Data-Driven Feasibility Insights</h3>
-              <p>
+              {/* <p>
                 Make smarter site decisions with fast, accurate feasibility checks. 
                 Confidently explore multiple design scenarios to maximize site potential 
                 and reduce costly guesswork in early-stage decision making.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
         <div className="row">
           <div className="col col--6">
-            <div className="text--center padding-horiz--md">
+            <div className="text--left padding-horiz--md">
               <h3>📋 Customizable Reports for Non-Engineers</h3>
-              <p>
+              {/* <p>
                 Translate complex civil design data into clear, accessible insights. 
                 Simplify technical details for real estate teams and stakeholders, 
                 bridging the knowledge gap for more productive conversations.
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="col col--6">
-            <div className="text--center padding-horiz--md">
+            <div className="text--left padding-horiz--md">
               <h3>🏗️ Optimized Grading and Drainage Design</h3>
-              <p>
+              {/* <p>
                 Experience cutting-edge civil design with up to 30% reduction in design time. 
                 Minimize environmental impact with smart earthwork management and unlock 
                 synergies between variables for better outcomes.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

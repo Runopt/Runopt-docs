@@ -6,25 +6,51 @@ sidebar_position: 2
 
 Learn how to find and analyze properties using Runopt's powerful search capabilities. Our property search feature helps you quickly locate properties and access comprehensive zoning information.
 
+## Getting Started
+
 ## Search Methods
 
 ### Address Search
 The most common way to find properties:
 
-1. **Enter Address**
+1. **Select a City**
+![Property Search Interface](/img/screenshots/property-search-select-city.png)
+
+        *Zoning map search interface showing dropdown for city selection*
+
+2. **Enter Address**
    - Type the full address in the search bar
    - Include street number, name, and city/borough
-   - Example: "123 Main Street, Brooklyn, NY"
+   - Example: " 6 Metrotech Center,Brooklyn, NY"
 
-2. **Select Property**
+3. **Select Property**
    - Choose from dropdown results
    - Verify the correct property
    - Click to load property details
 
-3. **View Results**
+   ![Property Search Interface](/img/screenshots/property-search-type-and-select.png)
+
+        *Zoning map search interface showing address input and show dropdown results*
+
+
+4. **View Results**
    - Property information appears
    - Zoning map loads automatically
    - Detailed analysis available
+
+   ![Property Search Interface](/img/screenshots/property-search-found.png)
+   *Zoning map search interface result and zoning information based on property searched*
+
+5. **Send property data to chatbot**
+   - Click the button "Send data to Zonewise Chat"
+   - Wait for the chatbot interface to be fully loaded (May take a few seconds)
+   - Property name and address will appear in chat interface
+   - Chatbot will provide zoning information based on property data provided
+   - Further queries can be made to chatbot for further analysis.
+
+   ![Property Search Interface](/img/screenshots/property-search-chat-interface.png)
+
+ *Chatbot interface showing sent data received and chatbot giving further information on the searched property*
 
 ### Advanced Search Options
 
@@ -45,184 +71,119 @@ Search using tax map information:
 - **Section**: Map section number
 - **Volume**: Map volume identifier
 
-## Search Results
+{/* ### 2. Zoning Review
+1. Check the zoning district classification
+2. Review building restrictions and requirements
+3. Examine permitted uses
+4. Note any special regulations
 
-### Property Information Display
-When you select a property, you'll see:
+### 3. Development Analysis
+1. Assess development potential
+2. Identify zoning compliance issues
+3. Plan for necessary variances
+4. Calculate maximum buildable area
 
-#### Basic Property Details
-- **Address**: Full property address
-- **Borough**: NYC borough location
-- **Block/Lot**: Official block and lot numbers
-- **BBL**: Borough-Block-Lot identifier
-- **Tax Map**: Tax map reference
+### 4. Get AI Insights
+1. Click the chat icon
+2. Ask specific zoning questions
+3. Get instant regulatory guidance
+4. Receive development recommendations
 
-#### Property Characteristics
-- **Lot Size**: Total lot area in square feet
-- **Lot Dimensions**: Length and width measurements
-- **Lot Shape**: Rectangular, irregular, etc.
-- **Street Frontage**: Frontage on public streets
+## Common Use Cases
 
-#### Current Building Information
-- **Building Type**: Residential, commercial, mixed-use, etc.
-- **Number of Stories**: Building height in stories
-- **Building Area**: Total building square footage
-- **Year Built**: Construction year
-- **Building Class**: NYC building classification
+### Residential Development
+- **Single-family Homes**: Check lot size and setback requirements
+- **Multi-family Buildings**: Analyze density and height restrictions
+- **Mixed-use Projects**: Understand residential/commercial ratios
+- **Accessory Units**: Verify ADU and basement apartment rules
 
-### Zoning Information
-- **Zoning District**: Primary zoning classification
-- **Special Districts**: Any overlay zones
-- **Zoning Map**: Interactive zoning map view
-- **Zoning Code**: Link to official zoning resolution
+### Commercial Development
+- **Office Buildings**: Check FAR and height limitations
+- **Retail Spaces**: Verify commercial use permissions
+- **Industrial Facilities**: Review manufacturing and storage uses
+- **Hotels and Hospitality**: Analyze lodging and entertainment uses
 
-## Search Tips
-
-### Address Formatting
-- **Use Full Address**: Include street number, name, and borough
-- **Correct Spelling**: Ensure street names are spelled correctly
-- **Borough Specification**: Include borough name for clarity
-- **Alternative Formats**: Try different address formats if needed
-
-### Finding the Right Property
-- **Multiple Results**: Review all search results carefully
-- **Verify Details**: Check lot size and building information
-- **Cross-reference**: Use block/lot numbers to verify
-- **Contact Support**: If property isn't found
-
-### Search Shortcuts
-- **Recent Searches**: Access recently searched properties
-- **Saved Properties**: Quick access to saved properties
-- **Search History**: View your search history
-- **Favorites**: Mark frequently used properties
-
-## Property Analysis
-
-### Quick Analysis
-Once you've found a property:
-
-1. **Review Zoning District**
-   - Check primary zoning classification
-   - Note any special districts
-   - Review zoning code details
-
-2. **Examine Building Restrictions**
-   - Maximum building height
-   - Floor area ratio (FAR) limits
-   - Setback requirements
-   - Lot coverage restrictions
-
-3. **Check Use Regulations**
-   - Permitted uses
-   - Prohibited uses
-   - Special permit requirements
-   - Use group classifications
-
-4. **Assess Development Potential**
-   - Maximum buildable area
-   - Development density
-   - Parking requirements
-   - Open space requirements
-
-### Detailed Analysis
-For comprehensive property analysis:
-
-1. **Zoning Compliance**
-   - Current building compliance
-   - Potential zoning violations
-   - Variance requirements
-   - Special permit needs
-
-2. **Development Scenarios**
-   - As-of-right development
-   - Variance scenarios
-   - Special permit options
-   - Economic feasibility
-
-3. **Regulatory Review**
-   - Environmental requirements
-   - Landmark considerations
-   - Special district rules
-   - Community board review
+### Land Use Planning
+- **Site Selection**: Evaluate multiple properties for development
+- **Feasibility Studies**: Assess project viability
+- **Due Diligence**: Comprehensive property analysis
+- **Regulatory Compliance**: Ensure project meets all requirements */}
 
 ## Data Sources
 
-### NYC Data Sources
-- **PLUTO Database**: Property-level data
-- **NYC Department of City Planning**: Zoning information
-- **NYC Department of Buildings**: Building information
-- **NYC Department of Finance**: Tax assessment data
+### Official Zoning Data
+- **NYC Department of City Planning**: Official zoning maps and codes
+- **PLUTO Database**: Property-level zoning information
+- **Zoning Resolution**: Complete NYC zoning regulations
+- **Special Districts**: Overlay zones and special areas
 
-### Data Updates
-- **Real-time Updates**: Latest property information
-- **Regular Refresh**: Updated zoning and building data
-- **Historical Data**: Track changes over time
-- **Accuracy Verification**: Cross-referenced data sources
+### Real-time Updates
+- **Zoning Amendments**: Latest changes and updates
+- **Map Corrections**: Accurate boundary information
+- **Code Updates**: Current zoning regulations
+- **Special Permits**: Active special permit information
 
-## Export Options
+{/* 
+## Integration Features
 
-### Property Reports
-- **PDF Reports**: Comprehensive property analysis
-- **CSV Export**: Property data for spreadsheet analysis
-- **Map Images**: High-resolution property maps
-- **Zoning Summary**: Zoning compliance report
+### Export Capabilities
+- **PDF Reports**: Comprehensive zoning analysis reports
+- **CSV Data**: Export zoning data for further analysis
+- **Map Images**: High-resolution zoning maps
+- **API Access**: Programmatic access to zoning data
 
-### Data Formats
-- **JSON API**: Programmatic access to property data
-- **XML Export**: Structured data export
-- **Shapefile**: GIS-compatible data format
-- **KML/KMZ**: Google Earth compatible format
+### Collaboration Tools
+- **Project Sharing**: Share analysis with team members
+- **Comment System**: Add notes and observations
+- **Version Control**: Track changes and updates
+- **Team Access**: Manage user permissions
+
+## Best Practices
+
+### Before Analysis
+- **Verify Address**: Ensure correct property identification
+- **Gather Context**: Understand project goals and requirements
+- **Check Updates**: Verify latest zoning information
+- **Plan Questions**: Prepare specific zoning questions
+
+### During Analysis
+- **Take Notes**: Document important findings and restrictions
+- **Use Chatbot**: Get instant answers to complex questions
+- **Check Details**: Review all relevant zoning provisions
+- **Consider Variances**: Identify potential zoning relief needed
+
+### After Analysis
+- **Export Reports**: Save comprehensive analysis
+- **Share Results**: Collaborate with team members
+- **Follow Up**: Address any outstanding questions
+- **Plan Next Steps**: Determine project feasibility */}
+
 
 ## Troubleshooting
 
-### Common Search Issues
+### Common Issues
 
 **Property not found**
 - Check address spelling and format
 - Try alternative address formats
-- Use block/lot search as backup
 - Contact support for assistance
 
-**Incorrect property shown**
-- Verify block/lot numbers
-- Check property details carefully
-- Use BBL search for precise results
-- Report incorrect data to support
+**Zoning data missing**
+- Verify property is in supported area
+- Check for recent zoning changes
+- Report missing data to support
 
-**Search results missing**
+**Map not loading**
 - Check internet connection
 - Clear browser cache
 - Try different browser
-- Contact support if issue persists
 
-### Data Accuracy
-- **Verify Information**: Cross-reference with official sources
-- **Report Errors**: Contact support for data corrections
-- **Check Updates**: Ensure you have latest data
-- **Use Multiple Sources**: Verify with official records
+### Getting Help
+- **Chatbot Support**: Ask questions in the chat interface
+- **Documentation**: Review detailed guides
+- **Support Team**: Contact support@runopt.co
+- **Community**: Join our user community
 
-## Best Practices
-
-### Before Searching
-- **Gather Information**: Have property details ready
-- **Verify Address**: Ensure correct address format
-- **Check Borough**: Know the NYC borough
-- **Prepare Questions**: Plan your analysis goals
-
-### During Search
-- **Review Results**: Carefully check all search results
-- **Verify Property**: Ensure correct property selection
-- **Take Notes**: Document important findings
-- **Save Property**: Bookmark for future reference
-
-### After Search
-- **Export Data**: Save analysis results
-- **Share Findings**: Collaborate with team members
-- **Follow Up**: Address any questions or issues
-- **Plan Next Steps**: Determine project feasibility
 
 ## Next Steps
-
-- **[Zoning Maps](./zoning-maps.md)** - Learn to navigate and use zoning maps
-- **[Chatbot Integration](./chatbot-integration.md)** - Get AI-powered insights about your property
 - **[Civil Engineering](../civil-engineering/overview.md)** - Analyze engineering requirements
