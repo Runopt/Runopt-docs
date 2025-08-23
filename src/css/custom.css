@@ -102,6 +102,8 @@
   background: rgba(26, 26, 26, 0.95) !important;
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(185, 69, 204, 0.2);
+  padding: 15px 0 !important;
+  min-height: 70px !important;
 }
 
 .navbar__title {
@@ -110,6 +112,7 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-weight: 700;
+  font-size: 1.3rem !important;
 }
 
 /* Footer with Runopt dark branding */
@@ -157,6 +160,16 @@
 /* Links with Runopt colors */
 a {
   color: var(--runopt-blue);
+}
+
+/* Navbar links */
+.navbar__item {
+  font-size: 1.3rem !important;
+}
+
+.navbar__link {
+  font-size: 1.3rem !important;
+  font-weight: 500 !important;
 }
 
 a:hover {
