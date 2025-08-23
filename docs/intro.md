@@ -10,6 +10,7 @@ sidebar_position: 1
 
 Runopt is transforming land development with an integrated design optimization tool, delivering cost-effective, sustainable designs in minutes. Our platform combines AI-powered insights with comprehensive civil engineering tools to help Real Estate Developers and Civil Engineers make informed decisions.
 
+{/*
 ## Key Features
 
 ### 🗺️ Zoning Tools for Site Analysis
@@ -39,6 +40,7 @@ Experience cutting-edge civil design where efficiency meets excellence.
 - **30% Design Time Reduction**: Up to 30% reduction in design time
 - **Environmental Impact Minimization**: Smart earthwork management for sustainability
 - **Synergistic Optimization**: Unlock synergies between variables for better outcomes than focusing on one field
+*/}
 
 ## Quick Start
 
@@ -90,6 +92,6 @@ Sign up for a Runopt account to access all features and save your projects.
 
 Choose a section below to get started with specific features:
 
-- **[Getting Started](./getting-started/installation)** - Installation and setup
-- **[Zoning Analysis](./zoning-analysis/overview)** - AI-powered zoning tools
-- **[Core Product](./core-product/real-estate-feasibility-analysis)** - Real estate feasibility analysis
+- **[Property Search](./zoning-analysis/property-search)** - AI-powered zoning tools
+- **[Real Estate Feasibility Analysis](./core-product/real-estate-feasibility-analysis)** - Real estate feasibility analysis
+- **[Civil Site Design](./core-product/civil-site-design)** - Civil engineering design tools

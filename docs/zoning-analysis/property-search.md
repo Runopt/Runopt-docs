@@ -6,9 +6,6 @@ sidebar_position: 2
 
 Learn how to find and analyze properties using Runopt's powerful search capabilities. Our property search feature helps you quickly locate properties and access comprehensive zoning information.
 
-## Getting Started
-
-## Search Methods
 
 ### Address Search
 The most common way to find properties:
@@ -52,6 +49,7 @@ The most common way to find properties:
 
  *Chatbot interface showing sent data received and chatbot giving further information on the searched property*
 
+{/*
 ### Advanced Search Options
 
 #### Block and Lot Search
@@ -70,6 +68,7 @@ Search using tax map information:
 - **Tax Map**: Official NYC tax map reference
 - **Section**: Map section number
 - **Volume**: Map volume identifier
+*/}
 
 {/* ### 2. Zoning Review
 1. Check the zoning district classification
@@ -109,6 +108,7 @@ Search using tax map information:
 - **Due Diligence**: Comprehensive property analysis
 - **Regulatory Compliance**: Ensure project meets all requirements */}
 
+{/*
 ## Data Sources
 
 ### Official Zoning Data
@@ -122,6 +122,7 @@ Search using tax map information:
 - **Map Corrections**: Accurate boundary information
 - **Code Updates**: Current zoning regulations
 - **Special Permits**: Active special permit information
+*/}
 
 {/* 
 ## Integration Features
@@ -186,4 +187,5 @@ Search using tax map information:
 
 
 ## Next Steps
-- **[Core Product](../core-product/real-estate-feasibility-analysis.md)** - Real estate feasibility analysis
+- **[Real Estate Feasibility Analysis](../core-product/real-estate-feasibility-analysis)** - Real estate feasibility analysis
+- **[Civil Site Design](../core-product/civil-site-design)** - Civil engineering design tools

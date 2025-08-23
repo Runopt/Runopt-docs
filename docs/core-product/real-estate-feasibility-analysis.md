@@ -10,6 +10,7 @@ Runopt's Real Estate Feasibility Analysis tool provides comprehensive property e
 
 The Real Estate Feasibility Analysis module combines zoning data, market insights, and financial modeling to assess the viability of real estate projects. Whether you're evaluating a potential investment or planning a development project, this tool provides the data-driven insights you need.
 
+{/*
 ## Key Features
 
 ### 🏗️ Development Potential Assessment
@@ -35,7 +36,7 @@ The Real Estate Feasibility Analysis module combines zoning data, market insight
 - **Permit Requirements**: Identify necessary permits and approvals
 - **Environmental Considerations**: Assess environmental constraints and requirements
 - **Infrastructure Analysis**: Evaluate access to utilities and transportation
-
+*/}
 ## Getting Started
 
 ### 1. Create a Project
@@ -227,6 +228,5 @@ To be implemented soon.
 
 ## Next Steps
 
-- **[Civil Site Design](./civil-site-design.md)** - Learn about civil engineering analysis
-- **[Zoning Analysis](../zoning-analysis/overview.md)** - Master zoning analysis tools
-- **[Zoning Analysis](../zoning-analysis/overview.md)** - Master zoning analysis tools
+- **[Civil Site Design](./civil-site-design)** - Learn about civil engineering analysis
+- **[Property Search](../zoning-analysis/property-search)** - Master zoning analysis tools

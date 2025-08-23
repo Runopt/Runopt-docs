@@ -15,23 +15,7 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     'intro',
-    {
-      type: 'category',
-      label: 'Getting Started',
-      items: [
-        'getting-started/installation',
-        'getting-started/quick-start',
-        'getting-started/authentication',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Zoning Analysis',
-      items: [
-        'zoning-analysis/overview',
-        'zoning-analysis/property-search',
-      ],
-    },
+    'zoning-analysis/property-search',
     {
       type: 'category',
       label: 'Core Product',
