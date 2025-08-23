@@ -208,18 +208,6 @@ To be implemented soon.
 - Ensure all required parameters are set
 - Contact support if issues persist
 
-**Inaccurate results**
-- Review input assumptions
-- Validate market data sources
-- Check for recent zoning changes
-- Update cost estimates if needed
-
-**Missing data**
-- Verify property is in supported area
-- Check for data availability
-- Contact support for missing information
-- Use alternative data sources if available
-
 ### Getting Help
 - **Documentation**: Review detailed guides
 - **Support Team**: Contact support@runopt.co
