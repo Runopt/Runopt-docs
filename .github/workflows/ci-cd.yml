@@ -74,6 +74,7 @@ jobs:
         enable-pull-request-comment: true
         enable-commit-comment: true
         overwrites-pull-request-comment: true
+        site-name: 'runopt-docs'
       env:
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
@@ -100,6 +101,7 @@ jobs:
         deploy-message: "Deploy from GitHub Actions - ${{ github.sha }}"
         enable-pull-request-comment: false
         enable-commit-comment: true
+        site-name: 'runopt-docs'
       env:
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
