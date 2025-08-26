@@ -3,7 +3,6 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
@@ -17,12 +16,23 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__description">
+          Transforming land development with an integrated design optimization tool, delivering cost-effective, sustainable designs in minutes
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
             Get Started
           </Link>
+          <a
+            className="button button--secondary button--lg"
+            href="https://core.runopt.co"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{marginLeft: '1rem'}}>
+            Go To Platform
+          </a>
         </div>
       </div>
     </header>
@@ -36,9 +46,6 @@ export default function Home(): ReactNode {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
     </Layout>
   );
 }

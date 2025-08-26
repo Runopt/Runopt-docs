@@ -39,3 +39,46 @@
   background-clip: text !important;
   color: transparent !important;
 }
+
+/* Runopt Hero Description */
+.hero__description {
+  font-size: 1.2rem !important;
+  line-height: 1.6 !important;
+  color: #e0e0e0 !important;
+  margin: 1.5rem 0 2rem 0 !important;
+  max-width: 800px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  font-weight: 300 !important;
+}
+
+/* Runopt Hero Button Gradient */
+.hero .button--secondary {
+  background: linear-gradient(135deg, #B945CC 0%, #355BE0 100%) !important;
+  border: none !important;
+  color: white !important;
+  transition: all 0.3s ease !important;
+  margin: 0 0.5rem !important;
+  min-width: 175px !important;
+  width: 175px !important;
+  text-align: center !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.hero .button--secondary:hover {
+  background: linear-gradient(135deg, #A035BC 0%, #2A4BD0 100%) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(185, 69, 204, 0.3) !important;
+}
+
+/* Ensure first button doesn't have left margin */
+.hero .button--secondary:first-child {
+  margin-left: 0 !important;
+}
+
+/* Ensure last button doesn't have right margin */
+.hero .button--secondary:last-child {
+  margin-right: 0 !important;
+}

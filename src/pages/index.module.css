@@ -10,19 +10,20 @@
   overflow: hidden;
   background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 50%, #2a2a2a 100%) !important;
   color: white;
-  height: calc(100vh - 200px);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.heroBanner .hero__title,
-.heroBanner h1.hero__title {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  background-clip: text !important;
+.heroBanner .hero__title {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 1rem;
-  color: transparent !important;
 }
 
 @media screen and (max-width: 996px) {

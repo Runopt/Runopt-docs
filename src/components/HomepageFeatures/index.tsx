@@ -8,7 +8,7 @@ type FeatureItem = {
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: ReactNode;
 };
-
+// Feature list ommited from the homepage for now..can be added back later.
 const FeatureList: FeatureItem[] = [
   {
     title: 'Easy to Use',
