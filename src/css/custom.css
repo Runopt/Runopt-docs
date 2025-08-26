@@ -28,3 +28,14 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Runopt Hero Title Gradient */
+.hero__title,
+.hero h1,
+.hero h1.hero__title {
+  background: linear-gradient(135deg, #B945CC 0%, #355BE0 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  color: transparent !important;
+}
