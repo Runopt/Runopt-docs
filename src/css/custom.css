@@ -45,11 +45,12 @@
   font-size: 1.2rem !important;
   line-height: 1.6 !important;
   color: #e0e0e0 !important;
-  margin: 1.5rem 0 2rem 0 !important;
+  margin: 0 0 60px 0 !important;
   max-width: 800px !important;
   margin-left: auto !important;
   margin-right: auto !important;
   font-weight: 300 !important;
+  padding: 0 2rem !important;
 }
 
 /* Runopt Hero Button Gradient */

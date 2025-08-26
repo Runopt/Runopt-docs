@@ -11,12 +11,14 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
+      <div className={clsx('container', styles.heroContainer)}>
+        <Heading as="h1" className={clsx('hero__title', styles.heroTitle)}>
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <p className="hero__description">
+        <p className={clsx('hero__subtitle', styles.heroSubtitle)}>
+          {siteConfig.tagline}
+        </p>
+        <p className={clsx('hero__description', styles.heroDescription)}>
           Transforming land development with an integrated design optimization tool, delivering cost-effective, sustainable designs in minutes
         </p>
         <div className={styles.buttons}>

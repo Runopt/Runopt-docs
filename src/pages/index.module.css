@@ -14,10 +14,7 @@
   min-height: 600px;
 }
 
-.heroBanner .container {
-  position: relative;
-  z-index: 2;
-  padding: 0 1rem;
+.heroContainer {
   height: calc(100vh - 150px);
   min-height: 600px;
   display: flex;
@@ -27,36 +24,27 @@
   text-align: center;
 }
 
-/* Title Section */
-.heroBanner .hero__title {
+.heroTitle {
+  margin-bottom: 100px;
+  font-size: clamp(2.2rem, 6vw, 4rem);
   background: linear-gradient(135deg, #B945CC 0%, #355BE0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  font-size: clamp(1.8rem, 5vw, 3rem);
   font-weight: bold;
-  margin: 0 0 100px 0;
 }
 
-/* Subtitle Section */
-.heroBanner .hero__subtitle {
-  font-size: clamp(1.1rem, 3vw, 1.5rem);
-  margin: 0 0 40px 0;
+.heroSubtitle {
+  font-size: clamp(1.3rem, 4vw, 1.8rem);
+  margin-bottom: 40px;
 }
 
-/* Description Section */
-.heroBanner .hero__description {
-  font-size: clamp(1rem, 2.5vw, 1.2rem);
-  line-height: 1.6;
-  color: #e0e0e0;
-  max-width: 800px;
-  font-weight: 300;
-  margin: 0 0 60px 0;
-  padding: 0 2rem;
+.heroDescription {
+  font-size: clamp(1.2rem, 3vw, 1.6rem);
+  margin-bottom: 60px;
 }
 
-/* Buttons Section */
-.heroBanner .buttons {
+.buttons {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,29 +59,29 @@
     min-height: 500px;
   }
   
-  .heroBanner .container {
-    padding: 0 1.5rem;
+  .heroContainer {
     height: calc(100vh - 150px);
     min-height: 500px;
+    padding: 0 1.5rem;
   }
   
-  .heroBanner .hero__title {
-    font-size: 2.5rem;
+  .heroTitle {
+    font-size: 3rem;
     margin-bottom: 80px;
   }
   
-  .heroBanner .hero__subtitle {
-    font-size: 1.1rem;
+  .heroSubtitle {
+    font-size: 1.4rem;
     margin-bottom: 35px;
   }
   
-  .heroBanner .hero__description {
-    font-size: 1rem;
+  .heroDescription {
+    font-size: 1.2rem;
     max-width: 600px;
     margin-bottom: 50px;
   }
   
-  .heroBanner .buttons {
+  .buttons {
     margin-top: 50px;
   }
 }
@@ -105,30 +93,30 @@
     min-height: 450px;
   }
   
-  .heroBanner .container {
-    padding: 0 1rem;
+  .heroContainer {
     height: calc(100vh - 150px);
     min-height: 450px;
+    padding: 0 1rem;
   }
   
-  .heroBanner .hero__title {
-    font-size: 2.2rem;
+  .heroTitle {
+    font-size: 2.6rem;
     margin-bottom: 70px;
   }
   
-  .heroBanner .hero__subtitle {
-    font-size: 1rem;
+  .heroSubtitle {
+    font-size: 1.2rem;
     margin-bottom: 30px;
   }
   
-  .heroBanner .hero__description {
-    font-size: 0.95rem;
+  .heroDescription {
+    font-size: 1.1rem;
     max-width: 100%;
     margin-bottom: 45px;
     padding: 0 0.5rem;
   }
   
-  .heroBanner .buttons {
+  .buttons {
     margin-top: 40px;
   }
 }
@@ -140,30 +128,30 @@
     min-height: 400px;
   }
   
-  .heroBanner .container {
-    padding: 0 0.75rem;
+  .heroContainer {
     height: calc(100vh - 150px);
     min-height: 400px;
+    padding: 0 0.75rem;
   }
   
-  .heroBanner .hero__title {
-    font-size: 1.9rem;
+  .heroTitle {
+    font-size: 2.2rem;
     margin-bottom: 60px;
   }
   
-  .heroBanner .hero__subtitle {
-    font-size: 0.95rem;
+  .heroSubtitle {
+    font-size: 1.1rem;
     margin-bottom: 25px;
   }
   
-  .heroBanner .hero__description {
-    font-size: 0.9rem;
+  .heroDescription {
+    font-size: 1rem;
     margin-bottom: 40px;
     padding: 0 0.25rem;
     line-height: 1.5;
   }
   
-  .heroBanner .buttons {
+  .buttons {
     margin-top: 35px;
     gap: 0.75rem;
   }
@@ -175,28 +163,28 @@
     min-height: 350px;
   }
   
-  .heroBanner .container {
+  .heroContainer {
     padding: 0 0.5rem;
     min-height: 350px;
   }
   
-  .heroBanner .hero__title {
-    font-size: 1.7rem;
+  .heroTitle {
+    font-size: 2rem;
     margin-bottom: 50px;
   }
   
-  .heroBanner .hero__subtitle {
-    font-size: 0.9rem;
+  .heroSubtitle {
+    font-size: 1rem;
     margin-bottom: 20px;
   }
   
-  .heroBanner .hero__description {
-    font-size: 0.85rem;
+  .heroDescription {
+    font-size: 0.95rem;
     margin-bottom: 35px;
     line-height: 1.4;
   }
   
-  .heroBanner .buttons {
+  .buttons {
     margin-top: 30px;
     gap: 0.6rem;
   }
