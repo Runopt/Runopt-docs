@@ -83,3 +83,22 @@
 .hero .button--secondary:last-child {
   margin-right: 0 !important;
 }
+
+/* Runopt Navbar Brand Gradient */
+.navbar__brand {
+  background: linear-gradient(135deg, #B945CC 0%, #355BE0 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  color: transparent !important;
+  font-size: 1.3rem !important;
+}
+
+/* Runopt Navbar Items */
+.navbar__item {
+  font-size: 1.3rem !important;
+}
+
+.navbar__link {
+  font-size: 1.3rem !important;
+}
