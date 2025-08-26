@@ -1,0 +1,58 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a73e8;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#8a2be2;stop-opacity:0.1" />
+    </linearGradient>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a73e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8a2be2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Logo background circle -->
+  <circle cx="200" cy="200" r="80" fill="url(#logoGradient)" opacity="0.1"/>
+  
+  <!-- R letter in logo -->
+  <path d="M160 140h32c8.8 0 16 7.2 16 16s-7.2 16-16 16h-16l24 24h-12l-20-20v20h-8V140z" fill="url(#logoGradient)"/>
+  <path d="M176 172h16c4.4 0 8-3.6 8-8s-3.6-8-8-8h-16v16z" fill="url(#logoGradient)"/>
+  
+  <!-- Title -->
+  <text x="600" y="200" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#333">Runopt Documentation</text>
+  
+  <!-- Tagline -->
+  <text x="600" y="260" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#666">AI-powered software for land development</text>
+  
+  <!-- Description -->
+  <text x="600" y="320" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#888" max-width="800">
+    <tspan x="600" dy="0">Transforming land development with integrated design optimization</tspan>
+    <tspan x="600" dy="30">delivering cost-effective, sustainable designs in minutes</tspan>
+  </text>
+  
+  <!-- Features -->
+  <g transform="translate(200, 400)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">🗺️ Zoning Tools</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" fill="#666">AI-powered site analysis</text>
+  </g>
+  
+  <g transform="translate(400, 400)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">📊 Feasibility Insights</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" fill="#666">Data-driven decisions</text>
+  </g>
+  
+  <g transform="translate(600, 400)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">📋 Custom Reports</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" fill="#666">Clear insights for teams</text>
+  </g>
+  
+  <g transform="translate(800, 400)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">🏗️ Optimized Design</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" fill="#666">30% faster design time</text>
+  </g>
+  
+  <!-- URL -->
+  <text x="600" y="580" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#999">docs.runopt.co</text>
+</svg>
