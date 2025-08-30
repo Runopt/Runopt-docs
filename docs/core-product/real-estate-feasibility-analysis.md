@@ -44,7 +44,7 @@ The Real Estate Feasibility Analysis module combines zoning data, market insight
 
 2. Click on the Start Real Estate Feasibility Analysis Button
 
-![Homepage Real Estate Feasibility Analysis](/img/screenshots/core-product-realestate-feasibility-button.png)
+    ![Homepage Real Estate Feasibility Analysis](/img/screenshots/core-product-realestate-feasibility-button.png)
 
 3. Enter the project details
     - Enter project Name
@@ -53,12 +53,15 @@ The Real Estate Feasibility Analysis module combines zoning data, market insight
 
     ![Homepage Project Details](/img/screenshots/core-product-project-details.png)
 
+
 4. A new project will be created and displayed under the 'All Projects' section of the Homepage. Click on the project card newly created(usually the first/last card displayed).
 
-![Homepage All projects](/img/screenshots/core-product-all-projects.png)
+    ![Homepage All projects](/img/screenshots/core-product-all-projects.png)
 
 ### 2. Stage One: Building and Parking Lots placement
+    
 1. Once the project created is selected from the last step above,
+
     -  Import Site Data by clicking on the 'Import Existing Site' button under Data tab on the sidebar.
 
     ![Core product import data](/img/screenshots/core-product-import-data.png)
@@ -71,7 +74,7 @@ The Real Estate Feasibility Analysis module combines zoning data, market insight
 
     ![Core product Upload file](/img/screenshots/core-product-terrain-layer.png)
 
-    - Add building by clicking on the Buildings button on the sidebar. This will open the Buildings Panel.
+2. Add building by clicking on the Buildings button on the sidebar. This will open the Buildings Panel.
 
     ![Core product Upload file](/img/screenshots/core-product-buildings-panel.png)
 
@@ -80,17 +83,17 @@ The Real Estate Feasibility Analysis module combines zoning data, market insight
     ![Core product Upload file](/img/screenshots/core-product-draw-building.png)
 
 
-    - Once done, click the 'Submit the Building' button.
+3. Once done, click the 'Submit the Building' button.
 
-    - Next, click on the 'Parking' Button on the sidebar to open the Parking Specifications panel. Enter the number of parking lots. Save Specifications.
+4. Next, click on the 'Parking' Button on the sidebar to open the Parking Specifications panel. Enter the number of parking lots. Save Specifications.
 
     ![Core product Upload file](/img/screenshots/core-product-add-parking.png)
 
-    - Finally, under the Run tab on the sidebar, click on the 'Run Stage 1 - building placement' button for the first optimization. This will take a 1-2 mins. In the meantime, enjoy reading the fun buiding up process.
+5. Finally, under the Run tab on the sidebar, click on the 'Run Stage 1 - building placement' button for the first optimization. This will take a 1-2 mins. In the meantime, enjoy reading the fun buiding up process.
 
     ![Core product Upload file](/img/screenshots/core-product-optimization-process.png)
 
-    - The complete site optimization for the building placement with total project cost that includes Earthworks and Retaining wall costs.
+    - This is the complete site optimization for the building placement with total project cost that includes Earthworks and Retaining wall costs.
 
    ![Core product Upload file](/img/screenshots/core-product-complete-site-optimization.png)
 
@@ -100,51 +103,48 @@ The Real Estate Feasibility Analysis module combines zoning data, market insight
 #### Utilities 
 For the utilities configuration section, you can enter the information based on the data we've provided in the illustration below.
 
--  Click on the 'Utilities button' on the sidebar. This will open up the Utilities Configuration Panel.
+1. Click on the 'Utilities button' on the sidebar. This will open up the Utilities Configuration Panel.
 
-![Core product Upload file](/img/screenshots/core-product-utilities-configuration.png)
+    ![Core product Upload file](/img/screenshots/core-product-utilities-configuration.png)
 
--  Under the Water Supply Node, Click on the 'select water supply node' text. This will enable you to select a node (x and y coordinate) on the interactive terrrain. Click on the terrain to select the node.The node x and y coordinate will then appear in the utilities configuration panel.
+2.  Under the Water Supply Node, Click on the 'select water supply node' text. This will enable you to select a node (x and y coordinate) on the interactive terrrain. Click on the terrain to select the node.The node x and y coordinate will then appear in the utilities configuration panel.
 
-- Under the Wastewater Use Node click on the 'Select wasterwatr Node' text. This will enable you to select a node on the interactive terrain. Click on the terrain to select the node. The node x and y coordinate will then appear in the utilities configuration panel.
+    - Select the pipe material from the dropdown menu. 
 
-- Select the pipe material from the dropdown menu. 
+    - Enter the Frost Line Depth, if any.
 
-- Enter the Frost Line Depth, if any.
+    - Enter the initial Flow Rate.
 
-- Enter the initial Flow Rate.
+    - Click on save configuration.
 
-- Click on save configuration.
+3. Finally, under the Run tab on the sidebar, click on the 'Run Stage 2: Pipe Design' button for the first optimization. This will take a 1-2 mins to run the process and produce the pipe network optimization and cost. In the meantime, enjoy reading the fun buiding up process.
 
-- Finally, under the Run tab on the sidebar, click on the 'Run Stage 2: Pipe Design' button for the first optimization. This will take a 1-2 mins to run the process and produce the pipe network optimization and cost. In the meantime, enjoy reading the fun buiding up process.
-
-![Core product Upload file](/img/screenshots/core-product-pipe-design-complete.png)
+    ![Core product Upload file](/img/screenshots/core-product-pipe-design-complete.png)
 
 
 ### 4. Stage Three: Stormwater
 
 Now we can add the stormwater input specifications for the analysis.
 
-- In the sidebar, under the Data tab, click on the 'Precip Data' button.  This will open the Stormwater Input Specifications' form.
+1. In the sidebar, under the Data tab, click on the 'Precip Data' button.  This will open the Stormwater Input Specifications' form.
 
+    - Fill in the Storm Design Frequency.
 
-![Core product Upload file](/img/screenshots/core-product-storm-water-specifications.png)
+    - Fill in the Frost Line Depth.
 
-- Fill in the Storm Design Frequency.
+    - Enter the Minimum Pipe Slope.
 
-- Fill in the Frost Line Depth.
+    - Click on the 'Save Specifications' button. 
 
-- Enter the Minimum Pipe Slope.
+     ![Core product Upload file](/img/screenshots/core-product-storm-water-specifications.png)
 
-- Click on the 'Save Specifications' button. 
+2. Finally, under the Run tab on the sidebar, click on the 'Run Stage 3: Storm Water Analysis' button for the first optimization. This will take a 1-2 mins to run the process and produce the pipe network optimization and cost. In the meantime, enjoy reading the fun buiding up process.
 
-- Finally, under the Run tab on the sidebar, click on the 'Run Stage 3: Storm Water Analysis' button for the first optimization. This will take a 1-2 mins to run the process and produce the pipe network optimization and cost. In the meantime, enjoy reading the fun buiding up process.
+    ![Core product Upload file](/img/screenshots/core-product-storm-water-complete.png)
 
-![Core product Upload file](/img/screenshots/core-product-storm-water-complete.png)
+3. Different analysis results can be seen under the stormwater tab on the canvas by clicking and selecting the available stormwater methods.
 
-- Different analysis results can be seen under the stormwater tab on the canvas by clicking and selecting the available stormwater methods.
-
-![Core product Upload file](/img/screenshots/core-product-storm-water-diff-analysis.png)
+    ![Core product Upload file](/img/screenshots/core-product-storm-water-diff-analysis.png)
 
 {/*
 ## Output and Reporting
