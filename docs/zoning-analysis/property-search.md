@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Zoning Analysis - Property Search
+# Zoning Analysis
 
 Learn how to find and analyze properties using Runopt's powerful search capabilities. Our property search feature helps you quickly locate properties and access comprehensive zoning information.
 
@@ -159,7 +159,7 @@ Search using tax map information:
 - **Follow Up**: Address any outstanding questions
 - **Plan Next Steps**: Determine project feasibility */}
 
-
+{/*
 ## Troubleshooting
 
 ### Common Issues
@@ -184,6 +184,7 @@ Search using tax map information:
 - **Documentation**: Review detailed guides
 - **Support Team**: Contact support@runopt.co
 - **Community**: Join our user community
+*/}
 
 
 ## Next Steps

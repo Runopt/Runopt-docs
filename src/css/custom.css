@@ -83,13 +83,13 @@ pre,
 [data-theme='dark'] {
   --ifm-background-color: #000000;
   --ifm-background-surface-color: #000000;
-  --ifm-color-primary: #ffffff;
-  --ifm-color-primary-dark: #e6e6e6;
-  --ifm-color-primary-darker: #d9d9d9;
-  --ifm-color-primary-darkest: #b3b3b3;
-  --ifm-color-primary-light: #ffffff;
-  --ifm-color-primary-lighter: #ffffff;
-  --ifm-color-primary-lightest: #ffffff;
+  --ifm-color-primary: #355BE0;
+  --ifm-color-primary-dark: #2a4bc7;
+  --ifm-color-primary-darker: #2545bc;
+  --ifm-color-primary-darkest: #1e3899;
+  --ifm-color-primary-light: #4a6ee8;
+  --ifm-color-primary-lighter: #5a7aeb;
+  --ifm-color-primary-lightest: #7a94f0;
   
   /* Text colors */
   --ifm-font-color-base: #ffffff;
@@ -195,7 +195,7 @@ body {
 }
 
 .hero .button--secondary:hover {
-  background: linear-gradient(135deg, #A035BC 0%, #2A4BD0 100%) !important;
+  background: linear-gradient(135deg, #9a3bac 0%, #2a4bc7 100%) !important;
   transform: translateY(-2px) !important;
   box-shadow: 0 4px 12px rgba(185, 69, 204, 0.3) !important;
 }
@@ -270,36 +270,81 @@ html, body {
   flex: 1;
 }
 
-/* Docs content container */
-.container {
-  min-height: calc(100vh - var(--ifm-navbar-height));
+/* Homepage specific - NO min-height on containers since hero already takes full height */
+.homepage .container {
+  min-height: auto !important;
 }
 
-/* Footer positioning - hidden below fold */
-.footer {
-  margin-top: auto;
+/* Homepage footer should be immediately after hero content */
+.homepage .footer {
+  margin-top: 0 !important;
 }
 
-/* Specific page layouts */
-.homepage {
-  min-height: calc(100vh - var(--ifm-navbar-height));
+/* Ensure footer copyright container has relative positioning */
+.footer__copyright {
+  position: relative !important;
+  margin-top: 1.5rem !important;
+  padding-top: 1rem !important;
 }
 
-/* Docs page layout */
-.docs-wrapper {
-  min-height: calc(100vh - var(--ifm-navbar-height));
+/* Copyright separator - make it more visible */
+.footer__copyright::before {
+  content: '' !important;
+  display: block !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 60% !important;
+  height: 1px !important;
+  background: linear-gradient(90deg, #B945CC 0%, #355BE0 100%) !important;
+  z-index: 10 !important;
+}
+
+/* Clean slate - removed pseudo-footer CSS since real footer now exists */
+
+/* Docs page layout - fix excessive spacing */
+#__docusaurus {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-.docs-wrapper .container {
+.navbar {
+  flex-shrink: 0;
+}
+
+.main-wrapper {
   flex: 1;
   display: flex;
   flex-direction: column;
 }
 
-.docs-wrapper .row {
+/* Docs content area */
+div[class*="docMainContainer"] {
   flex: 1;
+  padding: 0;
+}
+
+div[class*="docMainContainer"] .container {
+  max-width: none;
+  padding: 0;
+}
+
+div[class*="docMainContainer"] .row {
+  margin: 0;
+  min-height: auto;
+}
+
+/* Sidebar container */
+div[class*="docSidebarContainer"] {
+  flex-shrink: 0;
+}
+
+/* Doc content wrapper */
+div[class*="docItemWrapper"] {
+  min-height: auto;
+  padding: 2rem;
 }
 
 /* Blog and other pages */
@@ -307,6 +352,94 @@ html, body {
 .page-wrapper {
   min-height: calc(100vh - var(--ifm-navbar-height));
 }
+
+/* Footer positioning and styling */
+.footer {
+  margin-top: auto;
+  background-color: #000000 !important;
+  padding: 2rem 0 1rem 0;
+  position: relative;
+}
+
+/* Animated gradient line above footer (separating body and footer) */
+@keyframes gradientMove {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 0.5px;
+  background: linear-gradient(90deg, transparent 0%, #B945CC 25%, #355BE0 50%, #B945CC 75%, transparent 100%);
+  background-size: 200% 100%;
+  animation: gradientMove 12s ease-in-out infinite;
+}
+
+/* Respect user's preference for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .footer::before,
+  .footer__copyright::before {
+    animation: none;
+    background: linear-gradient(90deg, #B945CC 0%, #355BE0 100%);
+    background-size: 100% 100%;
+  }
+}
+
+/* Footer mobile responsiveness and centering */
+.footer .container {
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.footer .row {
+  margin: 0;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer__col {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.footer__title {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.footer__item {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.footer__link-item {
+  font-size: 0.9rem;
+  padding: 0.2rem 0;
+  display: inline-block;
+}
+
+.footer__copyright {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: none;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #ccc;
+  position: relative;
+}
+
+/* Removed original footer__copyright::before rule - moved to main definition above */
 
 /* Mobile Responsiveness Fixes */
 
@@ -336,6 +469,25 @@ html, body {
     min-width: 150px !important;
     width: 150px !important;
     font-size: 0.9rem !important;
+  }
+  
+  /* Footer responsiveness - tablet */
+  .footer .container {
+    padding: 0 1.5rem;
+  }
+  
+  .footer__col {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 2rem;
+  }
+  
+  .footer__title {
+    font-size: 1rem;
+  }
+  
+  .footer__link-item {
+    font-size: 0.85rem;
   }
 }
 
@@ -380,6 +532,47 @@ html, body {
   
   .hero .button--secondary:last-child {
     margin-right: 0.25rem !important;
+  }
+  
+  /* Footer responsiveness - tablet */
+  .footer {
+    padding: 1.5rem 0 1rem 0;
+  }
+  
+  .footer .container {
+    padding: 0 1rem;
+  }
+  
+  .footer__col {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer__title {
+    font-size: 0.95rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .footer__link-item {
+    font-size: 0.8rem;
+    padding: 0.15rem 0;
+  }
+  
+  .footer__copyright {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    padding-top: 0.75rem;
+  }
+  
+  /* Adjust gradient lines for tablet */
+  .footer::before {
+    width: 85%;
+  }
+  
+  .footer__copyright::before {
+    width: 70%;
+    height: 1px;
   }
 }
 
@@ -429,6 +622,48 @@ html, body {
     width: 200px !important;
     min-width: 200px !important;
   }
+  
+  /* Footer responsiveness - mobile phones */
+  .footer {
+    padding: 1.25rem 0 0.75rem 0;
+  }
+  
+  .footer .container {
+    padding: 0 0.75rem;
+  }
+  
+  .footer__col {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 1.25rem;
+    text-align: center;
+  }
+  
+  .footer__title {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer__link-item {
+    font-size: 0.75rem;
+    padding: 0.1rem 0;
+  }
+  
+  .footer__copyright {
+    font-size: 0.75rem;
+    margin-top: 0.75rem;
+    padding-top: 0.5rem;
+  }
+  
+  /* Adjust gradient lines for mobile phones */
+  .footer::before {
+    width: 90%;
+  }
+  
+  .footer__copyright::before {
+    width: 80%;
+    height: 1px;
+  }
 }
 
 /* Small phones */
@@ -464,12 +699,60 @@ html, body {
     font-size: 0.75rem !important;
     padding: 0.5rem 0.6rem !important;
   }
+  
+  /* Footer responsiveness - small phones */
+  .footer {
+    padding: 1rem 0 0.5rem 0;
+  }
+  
+  .footer .container {
+    padding: 0 0.5rem;
+  }
+  
+  .footer__col {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .footer__title {
+    font-size: 0.85rem;
+    margin-bottom: 0.4rem;
+  }
+  
+  .footer__link-item {
+    font-size: 0.7rem;
+    padding: 0.05rem 0;
+  }
+  
+  .footer__copyright {
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    padding-top: 0.4rem;
+  }
+  
+  /* Adjust gradient lines for small phones */
+  .footer::before {
+    width: 95%;
+  }
+  
+  .footer__copyright::before {
+    width: 90%;
+    height: 1px;
+  }
 }
 
 /* Fix container height on mobile to prevent layout issues */
 @media screen and (max-width: 768px) {
-  .container {
-    min-height: calc(100vh - var(--ifm-navbar-height));
+  /* Homepage containers should not have forced height */
+  .homepage .container {
+    min-height: auto !important;
+  }
+  
+  /* Docs containers maintain proper height */
+  div[class*="docMainContainer"] .container {
+    min-height: auto;
   }
   
   .hero {
@@ -491,4 +774,15 @@ html, body {
   [data-theme='dark'] .navbar-sidebar .navbar__item .navbar__link {
     color: #ffffff !important;
   }
+  
+  /* Mobile docs layout fixes */
+  div[class*="docItemWrapper"] {
+    padding: 1rem;
+  }
+  
+  /* Footer adjustments for mobile */
+  .footer {
+    margin-top: 2rem;
+  }
 }
+

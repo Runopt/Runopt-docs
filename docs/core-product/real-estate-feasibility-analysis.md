@@ -146,11 +146,11 @@ Now we can add the stormwater input specifications for the analysis.
 
 ![Core product Upload file](/img/screenshots/core-product-storm-water-diff-analysis.png)
 
-
+{/*
 ## Output and Reporting
 To be implemented soon.
 
-{/*
+
 ### Comprehensive Reports
 - **Executive Summary**: Key findings and recommendations
 - **Detailed Analysis**: In-depth review of all factors
@@ -196,7 +196,7 @@ To be implemented soon.
 - **Comment System**: Add notes and observations
 - **Version Control**: Track changes and updates
 - **Approval Workflows**: Manage review and approval processes
-*/}
+
 
 ## Troubleshooting
 
@@ -213,6 +213,7 @@ To be implemented soon.
 - **Support Team**: Contact support@runopt.co
 - **Community**: Join our user community
 - **Training**: Access training materials
+*/}
 
 ## Next Steps
 
