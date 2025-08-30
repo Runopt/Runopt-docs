@@ -72,6 +72,11 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/logo-seo.png',
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
     navbar: {
       title: 'Runopt',
       logo: {
@@ -157,7 +162,8 @@ const config: Config = {
       copyright: `Copyright © ${new Date().getFullYear()} Runopt. Built with Docusaurus.`,
     },
     prism: {
-      theme: prismThemes.github,
+      // theme: prismThemes.github,
+      theme: prismThemes.dracula,
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
