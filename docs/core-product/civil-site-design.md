@@ -12,5 +12,5 @@ Runopt's Civil Site Design module will provide comprehensive civil engineering a
 
 ## Next Steps
 
-- **[Property Search](../zoning-analysis/property-search)** - Master zoning analysis tools
+- **[Zoning Analysis](../zoning/zoning-analysis)** - Master zoning analysis tools
 - **[Real Estate Feasibility Analysis](./real-estate-feasibility-analysis)** - Learn about feasibility analysis

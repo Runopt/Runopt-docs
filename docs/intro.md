@@ -92,6 +92,6 @@ Sign up for a Runopt account to access all features and save your projects.
 
 Choose a section below to get started with specific features:
 
-- **[Property Search](./zoning-analysis/property-search)** - AI-powered zoning tools
+- **[Zoning Analysis](./zoning/zoning-analysis)** - AI-powered zoning tools
 - **[Real Estate Feasibility Analysis](./core-product/real-estate-feasibility-analysis)** - Real estate feasibility analysis
 - **[Civil Site Design](./core-product/civil-site-design)** - Civil engineering design tools

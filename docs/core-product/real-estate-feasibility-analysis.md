@@ -218,4 +218,4 @@ To be implemented soon.
 ## Next Steps
 
 - **[Civil Site Design](./civil-site-design)** - Learn about civil engineering analysis
-- **[Property Search](../zoning-analysis/property-search)** - Master zoning analysis tools
+- **[Zoning Analysis](../zoning/zoning-analysis)** - Master zoning analysis tools

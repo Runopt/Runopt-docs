@@ -120,7 +120,7 @@ const config: Config = {
             },
             {
               label: 'Zoning Analysis',
-              to: '/docs/zoning-analysis/overview',
+              to: '/docs/zoning/zoning-analysis',
             },
             {
               label: 'Core Product',
